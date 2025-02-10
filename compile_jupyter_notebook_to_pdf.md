@@ -7,6 +7,10 @@ To convert a jupyter notebook file to pdf:
 * You can also convert to pdf via HTML, but this was the method for converting via Latex
 
 To format a jupyter notebook for conversion via Latex to pdf:
+* Can hide code chunks and only show output
+    * Link: https://stackoverflow.com/questions/49907455/hide-code-when-exporting-jupyter-notebook-to-html
+    * Hide all chunks when exporting to pdf on command line, or go into the metadata for certain chunks in Jupyter to add tags to hide the chunks
+    * Good for assignments when you don't need to show all your code
 * Can remove heading numbers that are automatically added, by appending " {-}" to each heading name 
     * Link: https://stackoverflow.com/questions/35077571/how-to-remove-heading-numbers-in-jupyter-during-pdf-conversion
 * Add title instead of using the file name as the title by adding a title field to the Notebook metadata
